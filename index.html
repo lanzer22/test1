@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datei-Upload-Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Datei-Upload-Website</h1>
+    </header>
+
+    <main>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Datei auswählen:</label>
+            <input type="file" name="file" id="file" required>
+            <button type="submit">Hochladen</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Datei-Upload-Website. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
